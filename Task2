@@ -1,0 +1,60 @@
+// STUDENT GRADE CALCULATOR
+
+import java.util.Scanner;
+
+
+public class Task2 {
+
+   public static void main(String[] args) {
+       Scanner xy = new Scanner(System.in);
+
+       System.out.println("Math");
+       float a = xy.nextFloat();
+
+       System.out.println("Biology");
+       float b = xy.nextFloat();
+
+       System.out.println("Chemistry");
+       float c = xy.nextFloat();
+
+       System.out.println("Physics");
+       float d = xy.nextFloat();
+
+       System.out.println("Computer");
+       float e = xy.nextFloat();
+
+       System.out.println("Enter total marks: ");
+       float total = xy.nextFloat();
+
+       float sum = (a+b+c+d+e);
+       System.out.println("The total marks is :"+sum);
+
+       
+       
+       float white = (sum/total)*100;
+
+       System.out.println("The percentage is :"+white +"%");
+       if(white>=90){
+           System.out.println("Grade is A" );
+       }
+       else if(white>=80 && white<90){
+           System.out.println("Grade B");
+       }
+       else if(white>= 70 && white<80){
+           System.out.println("Grade C");
+       }
+       else if(white>=60 && white<70){
+           System.out.println("Grade D");
+       }
+       else if (white>=50 && white<60){
+           System.out.println("Grade E");
+       }
+       else{
+           System.out.println("Grade F");
+       }
+
+         xy.close();
+   }
+       }
+
+
