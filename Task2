@@ -1,7 +1,7 @@
-// STUDENT GRADE CALCULATOR
+// STUDENT GRADE CALCULATOR(Task-2)
+
 
 import java.util.Scanner;
-
 
 public class Task2 {
 
